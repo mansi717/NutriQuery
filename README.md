@@ -15,7 +15,6 @@ This project is a full-stack application with:
 ### 1. Clone the repository
 ```bash
     git clone git@github.com:mansi717/NutriQuery.git
-    cd backend
 ```
 ### If you haven’t set up SSH keys yet, GitHub will give you an error like:
 ```bash
@@ -34,6 +33,7 @@ In that case generate private and public keys and add it to github
 ### 3. Install dependencies
 
 ```bash
+    cd backend
     pip install -r requirements.txt
 ```
 
@@ -62,3 +62,9 @@ In that case generate private and public keys and add it to github
 ```bash
    npm run serve
 ```
+### 4. Click on the localhost link and run it
+      http://localhost:8080/ 
+
+### Login credentials 
+    email : mansithakur07@gmail.com
+    password : test123
