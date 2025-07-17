@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+
+           elementFormDefault="qualified">
+	<xs:element name="recipe">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="url" type="xs:anyURI" minOccurs="1"/>
+				<xs:element name="scraped_time" type="xs:dateTime" minOccurs="1"/>
+				<xs:element name="recipe_name" type="xs:string" minOccurs="1"/>
+				<xs:element name="picture_url" type="xs:anyURI" minOccurs="1"/>
+				<xs:element name="cuisine" type="xs:string" minOccurs="1"/>
+				<xs:element name="time" type="xs:string" minOccurs="1"/>
+				<xs:element name="ingredients" minOccurs="1">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ingredient" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="amount" type="xs:string" minOccurs="1"/>
+										<xs:element name="name" type="xs:string" minOccurs="1"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="directions" minOccurs="1">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="direction" type="xs:string" maxOccurs="unbounded"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="nutrition_facts_per_serving">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="calories" type="xs:string" minOccurs="1"/>
+							<xs:element name="fat" type="xs:string" minOccurs="1"/>
+							<xs:element name="carbs" type="xs:string" minOccurs="1"/>
+							<xs:element name="protein" type="xs:string" minOccurs="1"/>
+							<xs:element name="sugar" type="xs:string" minOccurs="1"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+<recipe>
+  <url>https://pinchofyum.com/zucchini-pancakes</url>
+  <scraped_time>2025-07-14T01:16:39.094451</scraped_time>
+  <recipe_name>Zucchini Pancakes</recipe_name>
+  <picture_url>https://pinchofyum.com/wp-content/uploads/2013/08/zucchini-pancakes-45-183x183.jpg</picture_url>
+  <cuisine>American</cuisine>
+  <time>30 minutes</time>
+  <ingredients>
+    <ingredient>
+      <amount>1 cup</amount>
+      <name>flour</name>
+    </ingredient>
+    <ingredient>
+      <amount>3/4 teaspoon</amount>
+      <name>baking soda</name>
+    </ingredient>
+    <ingredient>
+      <amount>1/4 teaspoon</amount>
+      <name>salt</name>
+    </ingredient>
+    <ingredient>
+      <amount>2 eggs</amount>
+      <name/>
+    </ingredient>
+    <ingredient>
+      <amount>1 cup</amount>
+      <name>buttermilk</name>
+    </ingredient>
+    <ingredient>
+      <amount>1 tablespoon</amount>
+      <name>honey</name>
+    </ingredient>
+    <ingredient>
+      <amount>2 tablespoons</amount>
+      <name>melted butter</name>
+    </ingredient>
+    <ingredient>
+      <amount>1 cup</amount>
+      <name>coarsely shredded zucchini</name>
+    </ingredient>
+    <ingredient>
+      <amount>2 tablespoons</amount>
+      <name>flaxmeal</name>
+    </ingredient>
+  </ingredients>
+  <directions>
+    <direction>Whisk the flour, baking soda, and salt together in amixing bowl. Beat the egg yolks.</direction>
+    <direction>Add the egg yolks and buttermilk to the dry ingredients in the bowl and stir until just combined. Add the honey, melted butter, zucchini, and flaxmeal. Stir to combine.</direction>
+    <direction>Vigorously whisk the egg whites and fold them into the batter. Heat a griddle to medium heat (the best setting on the stove was medium, and the best setting on my electric griddle was close to 400 degrees).</direction>
+    <direction>Pour the batter onto the hot griddle and wait until bubbles form on the top of the pancakes and the edges look dry. Flip once, cook for another few minutes, and remove from heat. Top the pancakes with syrup and butter or my personal favorite: cottage cheese, blueberries, and honey.</direction>
+  </directions>
+  <nutrition_facts_per_serving>
+    <calories>109 calories</calories>
+    <fat>4.8 g</fat>
+    <carbs>13 g</carbs>
+    <protein>3.7 g</protein>
+    <sugar>3 g</sugar>
+  </nutrition_facts_per_serving>
+</recipe>
