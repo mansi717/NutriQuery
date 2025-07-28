@@ -7,7 +7,7 @@ export const favoritesStore = reactive({
     const userId = localStorage.getItem('user_id');
     if (!userId || isNaN(userId)) {
       console.error('User ID not found in localStorage. Cannot load favorites.');
-      this.favorites = []; // Clear favorites if no user
+      this.favorites = [];
       return;
     }
 
@@ -20,9 +20,7 @@ export const favoritesStore = reactive({
         return;
       }
       const data = await response.json();
-      // Mark loaded recipes as liked (important for `isFavorited` check)
       this.favorites = data.map(recipe => ({ ...recipe, liked: true }));
-      console.log('Favorites loaded:', this.favorites);
     } catch (err) {
       console.error('Error fetching favorites:', err);
       this.favorites = [];
@@ -38,9 +36,8 @@ export const favoritesStore = reactive({
     }
 
     const index = this.favorites.findIndex(r => r.id === recipe.id);
-    const liked = index === -1; // True if recipe is not in favorites (we want to add it)
+    const liked = index === -1;
 
-    // Optimistically update the UI
     if (liked) {
       this.favorites.push({ ...recipe, liked: true });
     } else {
@@ -56,27 +53,26 @@ export const favoritesStore = reactive({
         body: JSON.stringify({
           user_id: parseInt(userId),
           recipe_id: recipe.id,
-          liked, // Send boolean true/false
+          liked,
         }),
       });
 
       if (!res.ok) {
         const text = await res.text();
         console.error('Server responded with error:', res.status, text);
-        // If server error, revert optimistic update
+        // Revert if error
         if (liked) {
-            this.favorites.pop(); // Remove it if it was added
+          this.favorites.pop();
         } else {
-            this.favorites.splice(index, 0, { ...recipe, liked: true }); // Add it back if it was removed
+          this.favorites.splice(index, 0, { ...recipe, liked: true });
         }
       }
     } catch (err) {
       console.error('Failed to sync like:', err);
-      // If network error, revert optimistic update
       if (liked) {
-          this.favorites.pop();
+        this.favorites.pop();
       } else {
-          this.favorites.splice(index, 0, { ...recipe, liked: true });
+        this.favorites.splice(index, 0, { ...recipe, liked: true });
       }
     }
   },

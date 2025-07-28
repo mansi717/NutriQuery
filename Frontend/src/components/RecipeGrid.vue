@@ -1,6 +1,12 @@
 <template>
   <div class="grid">
-    <div class="card" v-for="recipe in recipeResults" :key="recipe.id">
+    <RecipeDetail
+      v-if="selectedRecipe"
+      :recipe="selectedRecipe"
+      @close-detail="selectedRecipe = null"
+    />
+
+    <div v-else class="card" v-for="recipe in recipeResults" :key="recipe.id" @click="viewDetail(recipe)">
       <div class="image-wrapper">
         <img :src="recipe.picture_url" :alt="recipe.name" />
       </div>
@@ -8,7 +14,7 @@
         <p class="recipe-name">{{ recipe.name }}</p>
         <div class="recipe-meta">
           <p class="cook-time"> ⏰ {{ recipe.cook_time }}</p>
-          <button class="like-button" @click="toggleFavorite(recipe)">
+          <button class="like-button" @click.stop="toggleFavorite(recipe)">
             <span v-if="recipe.liked" class="liked-heart">❤️</span>
             <span v-else class="unliked-heart">♡</span>
           </button>
@@ -19,34 +25,22 @@
 </template>
 
 <script setup>
+import { ref } from 'vue';
 import { recipeResults } from '@/store/recipeResults';
-import { favoritesStore } from '@/store/favorite.js';
-import { onMounted } from 'vue';
+import { favoritesStore } from '@/store/favorite';
+import RecipeDetail from './RecipeDetail.vue';
 
-const userId = localStorage.getItem('user_id');
+const selectedRecipe = ref(null);
 
-async function toggleFavorite(recipe) {
-  await favoritesStore.toggleFavorite(recipe, userId);
+function viewDetail(recipe) {
+  selectedRecipe.value = recipe;
 }
 
-// Mark recipes as liked based on backend
-onMounted(async () => {
-  if (!userId) {
-    console.error('User ID not found in localStorage');
-    return;
-  }
-  const res = await fetch(`http://localhost:5050/api/user/favorites/${userId}`);
-  const favorites = await res.json();
-  const favoriteIds = favorites.map(r => r.id);
-
-  recipeResults.forEach(recipe => {
-    recipe.liked = favoriteIds.includes(recipe.id);
-  });
-
-  favoritesStore.favorites = favorites;
-});
+async function toggleFavorite(recipe) {
+  await favoritesStore.toggleFavorite(recipe)
+  recipe.liked = favoritesStore.isFavorited(recipe)  // sync visual state
+}
 </script>
-
 
 
 

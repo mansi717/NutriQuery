@@ -1,7 +1,7 @@
 from flask import Flask, jsonify, request
 from flask_cors import CORS
 from flask_sqlalchemy import SQLAlchemy
-from sqlalchemy import or_, and_, func
+from sqlalchemy import or_, and_, func, text
 from sqlalchemy.orm import aliased, query
 from werkzeug.security import generate_password_hash, check_password_hash
 
@@ -197,6 +197,71 @@ def like_recipe():
     db.session.commit()
     return jsonify({'status': 'success'})
 
+@app.route('/api/user/favorites/<int:user_id>', methods=['GET'])
+def get_user_favorites(user_id):
+    favorites = db.session.query(Recipes).join(UserPreferences).filter(
+        UserPreferences.user_id == user_id,
+        UserPreferences.liked_status == 1
+    ).all()
+
+    response_data = []
+    for r in favorites:
+        response_data.append({
+            'id': r.recipe_id,
+            'name': r.name,
+            'cook_time': r.cook_time,
+            'picture_url': r.picture_url,
+            'directions': r.directions,
+        })
+
+    return jsonify(response_data)
+
+@app.route('/api/user/recommendations/<int:user_id>', methods=['GET'])
+def fetch_recommendations(user_id):
+    try:
+        # Step 1: Get ingredient IDs from liked recipes
+        liked_ingredients_query = text("""
+            SELECT DISTINCT ri.ingredient_id
+            FROM user_preferences up
+            JOIN recipe_ingredients ri ON up.recipe_id = ri.recipe_id
+            WHERE up.user_id = :user_id AND up.liked_status = 1
+        """)
+        result = db.session.execute(liked_ingredients_query, {'user_id': user_id})
+        liked_ingredients = [row[0] for row in result]
+
+        print(f"[DEBUG] User {user_id} liked ingredients count: {len(liked_ingredients)}")
+        print(f"[DEBUG] Liked ingredients: {liked_ingredients}")
+
+        if not liked_ingredients:
+            print("[DEBUG] No liked ingredients found, returning empty list.")
+            return jsonify([])
+
+        # Step 2: Recommend recipes that use these ingredients but are not already liked
+        recommend_query = text("""
+            SELECT DISTINCT r.recipe_id, r.name, r.picture_url, r.cook_time
+            FROM recipes r
+            JOIN recipe_ingredients ri ON r.recipe_id = ri.recipe_id
+            WHERE ri.ingredient_id IN :ingredients
+              AND r.recipe_id NOT IN (
+                SELECT recipe_id FROM user_preferences
+                WHERE user_id = :user_id AND liked_status = 1
+              )
+            LIMIT 9
+        """)
+        recommended = db.session.execute(
+            recommend_query,
+            {"user_id": user_id, "ingredients": tuple(liked_ingredients)}
+        )
+
+        recipes = [dict(row._mapping) for row in recommended]
+        print(f"[DEBUG] Recommended recipes count: {len(recipes)}")
+        print(f"[DEBUG] Recommended recipes: {recipes}")
+
+        return jsonify(recipes)
+
+    except Exception as e:
+        print("Error fetching recommendations:", str(e))
+        return jsonify({"error": str(e)}), 500
 
 # ✅ This must come last
 if __name__ == '__main__':

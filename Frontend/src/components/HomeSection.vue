@@ -13,6 +13,14 @@ import FilterPanel from './FilterPanel.vue';
 import RecipeGrid from './RecipeGrid.vue';
 import { ref, onMounted } from 'vue';
 
+import { setRecipeResults } from '@/store/recipeResults'
+
+onMounted(async () => {
+  const res = await fetch('http://localhost:5050/api/recipes')
+  const data = await res.json()
+  await setRecipeResults(data)  // ✅ this will attach liked flags
+})
+
 const username = ref('User');
 
 onMounted(() => {
