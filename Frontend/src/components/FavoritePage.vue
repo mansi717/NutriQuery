@@ -6,8 +6,7 @@
     </div>
 
     <div v-else class="grid">
-      <div class="card" v-for="recipe in likedRecipes" :key="recipe.name">
-        <img :src="recipe.image" :alt="recipe.name" class="image" />
+      <div class="card" v-for="recipe in likedRecipes" :key="recipe.id"> <img :src="recipe.picture_url" :alt="recipe.name" class="image" />
         <p class="recipe-name">{{ recipe.name }}</p>
       </div>
     </div>
@@ -15,12 +14,16 @@
 </template>
 
 <script setup>
-import { computed } from 'vue'
-import { recipes } from '@/store/recipes.js'
+import { ref, onMounted } from 'vue';
+import { favoritesStore } from '@/store/favorite'; // Adjust path if necessary
 
-const likedRecipes = computed(() =>
-  recipes.filter(recipe => recipe.liked)
-)
+const likedRecipes = ref([]);
+// Removed userId local variable as it's not directly used here after store.loadFavorites()
+
+onMounted(async () => {
+  await favoritesStore.loadFavorites(); // Load favorites into the store
+  likedRecipes.value = favoritesStore.favorites; // Sync local ref with store's favorites
+});
 </script>
 
 <style scoped>

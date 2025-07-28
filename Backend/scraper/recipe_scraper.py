@@ -10,7 +10,7 @@ from datetime import datetime
 from lxml import etree
 import csv
 
-from data_save_mysql import insert_recipe_from_xml as insert_recipe_from_xml
+from .data_save_mysql import insert_recipe_from_xml as insert_recipe_from_xml
 
 def scrape_sitemap_urls(url):
     """
@@ -83,20 +83,20 @@ def parse_recipe_content(html_content, url):
     }
 
     # --- All the detailed parsing logic remains exactly the same ---
-    name_elem = soup.select_one('.tasty-recipes-title, .wprm-recipe-name, h1[itemprop="name"]')
+    name_elem = soup.select_one('.tasty-recipeResults-title, .wprm-recipe-name, h1[itemprop="name"]')
     if name_elem:
         recipe_data["recipe_name"] = name_elem.get_text(strip=True)
-    image_elem = soup.select_one('figure.wp-block-image img, .tasty-recipes-image img, .wprm-recipe-image img')
+    image_elem = soup.select_one('figure.wp-block-image img, .tasty-recipeResults-image img, .wprm-recipe-image img')
     if image_elem and image_elem.has_attr('src'):
         recipe_data["picture_url"] = image_elem['src']
-    cuisine_elem = soup.select_one('span.tasty-recipes-cuisine')
+    cuisine_elem = soup.select_one('span.tasty-recipeResults-cuisine')
     if cuisine_elem:
         recipe_data["cuisine"] = cuisine_elem.get_text(strip=True)
-    time_elem = soup.select_one('.tasty-recipes-total-time, .wprm-recipe-total_time-container .wprm-recipe-time, [itemprop="totalTime"]')
+    time_elem = soup.select_one('.tasty-recipeResults-total-time, .wprm-recipe-total_time-container .wprm-recipe-time, [itemprop="totalTime"]')
     if time_elem:
         recipe_data["time"] = time_elem.get_text(strip=True)
     parsed_ingredients_from_html = []
-    ingredient_elems_html = soup.select('li[data-tr-ingredient-checkbox], .tasty-recipes-ingredients-body li, .wprm-recipe-ingredient')
+    ingredient_elems_html = soup.select('li[data-tr-ingredient-checkbox], .tasty-recipeResults-ingredients-body li, .wprm-recipe-ingredient')
     for li in ingredient_elems_html:
         full_text = li.get_text(separator=' ', strip=True)
         if not full_text: continue
@@ -120,9 +120,9 @@ def parse_recipe_content(html_content, url):
         if ingredient_name or ingredient_amount:
             parsed_ingredients_from_html.append({"amount": ingredient_amount, "name": ingredient_name})
     recipe_data["ingredients"] = parsed_ingredients_from_html
-    direction_elems_html = soup.select('.tasty-recipes-instructions-body li, .wprm-recipe-instruction-text, .tasty-recipes-instructions li, [itemprop="recipeInstructions"] li, [itemprop="recipeInstructions"] p')
+    direction_elems_html = soup.select('.tasty-recipeResults-instructions-body li, .wprm-recipe-instruction-text, .tasty-recipeResults-instructions li, [itemprop="recipeInstructions"] li, [itemprop="recipeInstructions"] p')
     recipe_data["directions"] = [d.get_text(strip=True) for d in direction_elems_html if d.get_text(strip=True)]
-    nutrition_elems_html = soup.select('.tasty-recipes-nutrition li, .wprm-nutrition-label-container span, .tasty-recipes-nutrition-details span, [itemprop="nutrition"] [itemprop]')
+    nutrition_elems_html = soup.select('.tasty-recipeResults-nutrition li, .wprm-nutrition-label-container span, .tasty-recipeResults-nutrition-details span, [itemprop="nutrition"] [itemprop]')
     for elem in nutrition_elems_html:
         text = elem.get_text(strip=True).lower()
         if elem.get('itemprop') == 'calories' and elem.get_text(strip=True): recipe_data["nutrition_facts_per_serving"]["calories"] = elem.get_text(strip=True)
@@ -214,15 +214,15 @@ def create_xml(recipe_data):
     reparsed = minidom.parseString(rough_string)
     return reparsed.toprettyxml(indent="  ")
 
-def validate_xml(xml_file_path, xsd_file_path):
+def validate_xml(xml_file_path, rng_file_path):
     """
-    Validates an XML file against an XSD schema.
+    Validates an XML file against a RelaxNG schema.
     """
     try:
-        xmlschema_doc = etree.parse(xsd_file_path)
-        xmlschema = etree.XMLSchema(xmlschema_doc)
+        rng_doc = etree.parse(rng_file_path)
+        rng_schema = etree.RelaxNG(rng_doc)
         xml_doc = etree.parse(xml_file_path)
-        xmlschema.assertValid(xml_doc)
+        rng_schema.assertValid(xml_doc)
         return True, None
     except etree.XMLSyntaxError as e:
         return False, f"XML Syntax Error: {e}"
@@ -231,7 +231,8 @@ def validate_xml(xml_file_path, xsd_file_path):
         return False, f"XML Validation Error: {errors}"
     except Exception as e:
         return False, f"Unexpected validation error: {e}"
-
+    
+    
 def save_results_to_csv(successful_urls, failed_urls, script_dir):
     """Saves successful and failed URLs to a CSV file."""
     file_path = os.path.join(script_dir, 'scraping_results.csv')
@@ -250,9 +251,9 @@ def save_results_to_csv(successful_urls, failed_urls, script_dir):
     except IOError as e:
         print(f"\nError saving results to CSV: {e}")
 
+
 def insert_into_database(xml_file_path):
     insert_recipe_from_xml(xml_file_path)
-
 
 # Changed to synchronous function
 def fetch_and_process_url(url):
@@ -298,11 +299,11 @@ def main():
         print(f"Found a total of {total_urls} unique URLs to process.")
         
         script_dir = os.path.dirname(os.path.realpath(__file__))
-        xsd_path = os.path.join(script_dir, 'recipe_schema.xsd')
+        rng_path = os.path.join(script_dir, 'recipe_schema.rng')
         xml_path = os.path.join(script_dir, 'recipe.xml') # Single XML file
 
-        if not os.path.exists(xsd_path):
-            print(f"XSD file not found at {xsd_path}. Please create it before running.")
+        if not os.path.exists(rng_path):
+            print(f"XSD file not found at {rng_path}. Please create it before running.")
             return
 
         processed_count = 0
@@ -326,7 +327,7 @@ def main():
             with open(xml_path, 'w', encoding='utf-8') as f:
                 f.write(xml_output)
 
-            is_valid, validation_error = validate_xml(xml_path, xsd_path)
+            is_valid, validation_error = validate_xml(xml_path, rng_path)
             if is_valid:
                 successful_urls.append(scraped_url)
                 insert_into_database(xml_path)

@@ -375,7 +375,7 @@ https://pinchofyum.com/ginger-chicken-meatball-sandos,Success,
 https://pinchofyum.com/beet-and-burrata-salad-with-fried-bread,Success,
 https://pinchofyum.com/announcing-summer-recipe-bingo,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/september-coffee-date,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
-https://pinchofyum.com/savory-meatball-recipes,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
+https://pinchofyum.com/savory-meatball-recipeResults,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/were-hiring-video-specialist,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/september-coffee-date-3,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/west-coast-road-trip,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
@@ -387,11 +387,11 @@ https://pinchofyum.com/save-the-date-our-video-in-2019-summit,Failed,XML Validat
 https://pinchofyum.com/ways-to-use-your-instant-pot,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/april-income-report-making-money-from-a-food-blog,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/september-coffee-date-2,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
-https://pinchofyum.com/we-tried-10-of-the-internets-best-instant-pot-recipes,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
+https://pinchofyum.com/we-tried-10-of-the-internets-best-instant-pot-recipeResults,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/life-at-the-cabin,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/september-income-report,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/save-date-free-one-day-recipe-video-bootcamp,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
-https://pinchofyum.com/lentil-recipes,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
+https://pinchofyum.com/lentil-recipeResults,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/scenes-from-seoul,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/10-cozy-casseroles-winter,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/at-the-market,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
@@ -401,36 +401,36 @@ https://pinchofyum.com/august-coffee-date-baby-edition,Failed,XML Validation Err
 https://pinchofyum.com/where-do-we-go-from-here,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/low-sugar-snacks,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/what-to-do-when-your-friend-loses-a-baby,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
-https://pinchofyum.com/magical-black-bean-recipes,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
+https://pinchofyum.com/magical-black-bean-recipeResults,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/10-days-to-montana-and-back,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/september-report-updating-an-old-blog-post,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/10-meals-you-should-make-for-your-friends-with-new-babies,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/april-coffee-date,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/what-i-do-here,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
-https://pinchofyum.com/luscious-coconut-milk-recipes,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
+https://pinchofyum.com/luscious-coconut-milk-recipeResults,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/10-last-minute-thanksgiving-side-dishes,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/making-money-from-a-food-blog-august-2012,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/september-traffic-income-report,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
-https://pinchofyum.com/10-easy-recipes-you-can-make-in-a-dutch-oven,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
+https://pinchofyum.com/10-easy-recipeResults-you-can-make-in-a-dutch-oven,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/10-basics-that-will-rock-your-summer-wardrobe,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/when-its-all-said-and-done,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
-https://pinchofyum.com/12-fresh-recipes-for-your-summer-vacation,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
+https://pinchofyum.com/12-fresh-recipeResults-for-your-summer-vacation,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/what-should-food-bloggers-write-about,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/asian-noodles,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/what-we-learned-why-were-stopping,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/making-money-from-a-food-blog-february-2013,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
-https://pinchofyum.com/13-must-try-pumpkin-recipes-for-fall,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
+https://pinchofyum.com/13-must-try-pumpkin-recipeResults-for-fall,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/making-money-from-a-food-blog-july-2012,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
-https://pinchofyum.com/12-favorite-instant-pot-soup-recipes,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
-https://pinchofyum.com/12-easy-recipes-you-can-make-in-a-slow-cooker,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
+https://pinchofyum.com/12-favorite-instant-pot-soup-recipeResults,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
+https://pinchofyum.com/12-easy-recipeResults-you-can-make-in-a-slow-cooker,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/1000-miles-of-alaska,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/12-creative-ways-to-use-kitchenaid-mixer,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/10-things-love-this-friday,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/making-money-from-a-food-blog-october-2012,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/making-money-from-a-food-blog-september-2012,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/march-coffee-date-2,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
-https://pinchofyum.com/back-to-school-recipes,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
+https://pinchofyum.com/back-to-school-recipeResults,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/yum-sweet-home-etsy-favorites,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/march-traffic-income-report,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/march-coffee-date,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
@@ -438,11 +438,11 @@ https://pinchofyum.com/young-and-wild-and-free,Failed,XML Validation Error: /Use
 https://pinchofyum.com/yum-sweet-home-homebuying-moments,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/14-things-i-bought-for-summer-that-i-cant-live-without,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/14-summer-smoothies-for-an-instant-mood-boost,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
-https://pinchofyum.com/14-must-bake-holiday-cookie-recipes,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
+https://pinchofyum.com/14-must-bake-holiday-cookie-recipeResults,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/15-healthy-and-delicious-breakfasts,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/workshops-again,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/back-to-it,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
-https://pinchofyum.com/15-recipes-summer-vacation,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
+https://pinchofyum.com/15-recipeResults-summer-vacation,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/meet-our-office-manager,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/may-coffee-date-2,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/24-hour-vacation,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
@@ -453,25 +453,25 @@ https://pinchofyum.com/slow-cooker-pear-sausage-stuffing,Failed,XML Validation E
 https://pinchofyum.com/family-vacation,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/february-coffee-date-2-2,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/february-coffee-date,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
-https://pinchofyum.com/favorite-peanut-butter-recipes,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
+https://pinchofyum.com/favorite-peanut-butter-recipeResults,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/february-traffic-income-report,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
-https://pinchofyum.com/favorite-mexican-crockpot-recipes,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
+https://pinchofyum.com/favorite-mexican-crockpot-recipeResults,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/morning-grains,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/slow-fall-rhythm,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/february-traffic-and-income-report,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/30-minute-meals,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/small-victories,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
-https://pinchofyum.com/favorite-drink-recipes,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
-https://pinchofyum.com/favorite-lentil-recipes,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
-https://pinchofyum.com/favorite-avocado-recipes,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
-https://pinchofyum.com/flavor-packed-jalapeno-recipes,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
+https://pinchofyum.com/favorite-drink-recipeResults,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
+https://pinchofyum.com/favorite-lentil-recipeResults,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
+https://pinchofyum.com/favorite-avocado-recipeResults,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
+https://pinchofyum.com/flavor-packed-jalapeno-recipeResults,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/my-favorite-non-alcoholic-beers,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
-https://pinchofyum.com/must-have-lemon-recipes,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
+https://pinchofyum.com/must-have-lemon-recipeResults,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/freezer-meals,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/october-november-coffee-date,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/on-full-time-blogging,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/october-traffic-and-income-report-2014,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
-https://pinchofyum.com/fresh-tomato-recipes,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
+https://pinchofyum.com/fresh-tomato-recipeResults,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/october-coffee-date,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/food-blogger-pro-open-enrollment,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/now-what,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
@@ -484,7 +484,7 @@ https://pinchofyum.com/food-blogger-pro-launch-day,Failed,XML Validation Error: 
 https://pinchofyum.com/october-income-report,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/on-full-time-blogging-end-of-a-chapter,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/opal-apples,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
-https://pinchofyum.com/sweet-honey-recipes-to-make,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
+https://pinchofyum.com/sweet-honey-recipeResults-to-make,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/our-first-ever-tasty-food-photography-workshop,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/sweet-zucchini-pancakes,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/bank-robbery-mcdonalds-smoothie-and-a-relaxing-weekend,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
@@ -494,22 +494,22 @@ https://pinchofyum.com/ten-awesome-things-to-do-in-charleston,Failed,XML Validat
 https://pinchofyum.com/tasty-food-photography-workshops-november-december,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/our-favorite-vegetarian-bloggers-and-books-from-veggie-loving-cooks,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/tasty-food-photography-book,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
-https://pinchofyum.com/beef-recipes,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
+https://pinchofyum.com/beef-recipeResults,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/getting-to-know-each-other-reader-survey,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/our-life-without-sugar,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
-https://pinchofyum.com/pantry-recipes,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
+https://pinchofyum.com/pantry-recipeResults,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/gift-ideas-for-the-bookworm,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/partypartyparty,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/beachy,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/ten-household-items-that-can-improve-your-food-photography,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/ten-more-household-items-that-can-improve-your-food-photos,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
-https://pinchofyum.com/bell-pepper-recipes,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
+https://pinchofyum.com/bell-pepper-recipeResults,Failed,XML Validation Error: /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:9:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'ingredients': Missing child element(s). Expected is ( ingredient ). /Users/mansithakur/PycharmProjects/Backend/scraper/recipe.xml:10:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'directions': Missing child element(s). Expected is ( direction ).
 https://pinchofyum.com/the-everything-marinade,Failed,Unknown error: XML output was None.
-https://pinchofyum.com/best-instant-pot-recipes,Failed,Unknown error: XML output was None.
+https://pinchofyum.com/best-instant-pot-recipeResults,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/green-bean-casserole,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/photos-of-the-city,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/the-evolution-of-a-food-photo,Failed,Unknown error: XML output was None.
-https://pinchofyum.com/best-mushroom-recipes-to-convert-mushroom-haters,Failed,Unknown error: XML output was None.
+https://pinchofyum.com/best-mushroom-recipeResults-to-convert-mushroom-haters,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/ginger-melon-chillers,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/thai-peanut-chicken-bowls,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/thai-coconut-soup-with-tofu-and-rice,Failed,Unknown error: XML output was None.
@@ -536,7 +536,7 @@ https://pinchofyum.com/thai-basil-coconut-lentils,Failed,Unknown error: XML outp
 https://pinchofyum.com/glazed-orange-muffins,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/pb-dark-chocolate-hummus,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/ten-ways-to-build-your-blog-while-traveling,Failed,Unknown error: XML output was None.
-https://pinchofyum.com/best-dip-recipes,Failed,Unknown error: XML output was None.
+https://pinchofyum.com/best-dip-recipeResults,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/ginger-peanut-chicken-with-coconut-rice,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/peach-cobbler,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/lemon-olive-oil-cake,Failed,Unknown error: XML output was None.
@@ -561,7 +561,7 @@ https://pinchofyum.com/caramelized-banana-oatmeal,Failed,Unknown error: XML outp
 https://pinchofyum.com/super-quick-avocado-shrimp-salad,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/red-pepper-and-artichoke-panini,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/lemon-herb-pasta-salad,Failed,Unknown error: XML output was None.
-https://pinchofyum.com/clean-eating-recipes-happy-spring,Failed,Unknown error: XML output was None.
+https://pinchofyum.com/clean-eating-recipeResults-happy-spring,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/caramelized-banana-oat-muffins,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/super-moist-pumpkin-bread,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/red-curry-noodles,Failed,Unknown error: XML output was None.
@@ -611,7 +611,7 @@ https://pinchofyum.com/amazing-green-rice,Failed,Unknown error: XML output was N
 https://pinchofyum.com/vegetarian-shepherds-pie,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/everything-you-need-to-know-about-sugar-free-january,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/almond-oat-banana-crepes,Failed,Unknown error: XML output was None.
-https://pinchofyum.com/vegetarian-recipes-we-eat-week-after-week,Failed,Unknown error: XML output was None.
+https://pinchofyum.com/vegetarian-recipeResults-we-eat-week-after-week,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/everything-greek-pork-pitas,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/almond-butter-cups,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/vegetarian-chili,Failed,Unknown error: XML output was None.
@@ -619,7 +619,7 @@ https://pinchofyum.com/europe-or-bust,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/almond-butter-chocolate-chip-zucchini-bars,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/vegan-sheet-pan-fajitas-with-chipotle-queso,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/english-muffin-baklava,Failed,Unknown error: XML output was None.
-https://pinchofyum.com/all-star-slow-cooker-recipes,Failed,Unknown error: XML output was None.
+https://pinchofyum.com/all-star-slow-cooker-recipeResults,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/vegan-mega-burritos,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/energy-bites,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/aji-verde,Failed,Unknown error: XML output was None.
@@ -642,7 +642,7 @@ https://pinchofyum.com/vanilla-glazed-apple-cinnamon-muffins,Failed,Unknown erro
 https://pinchofyum.com/egg-roll-tacos,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/aftons-story-6,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/ultimate-wild-rice-burgers,Failed,Unknown error: XML output was None.
-https://pinchofyum.com/egg-recipes,Failed,Unknown error: XML output was None.
+https://pinchofyum.com/egg-recipeResults,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/aftons-story-4,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/two-person-raspberry-crumbles,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/egg-and-croissant-brunch-bake,Failed,Unknown error: XML output was None.
@@ -651,7 +651,7 @@ https://pinchofyum.com/two-person-banana-cream-pies,Failed,Unknown error: XML ou
 https://pinchofyum.com/edamame-hummus-wrap,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/aftons-story-10,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/two-huge-double-chocolate-cookies,Failed,Unknown error: XML output was None.
-https://pinchofyum.com/easy-zucchini-recipes,Failed,Unknown error: XML output was None.
+https://pinchofyum.com/easy-zucchini-recipeResults,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/adventures-in-seoul,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/two-huge-chocolate-chip-cookies,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/easy-whole-wheat-pizza-dough,Failed,Unknown error: XML output was None.
@@ -669,34 +669,34 @@ https://pinchofyum.com/triple-berry-refrigerator-jam,Failed,Unknown error: XML o
 https://pinchofyum.com/easy-turkey-pho,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/a-coffee-date-for-spring,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/triple-berry-pie-bars,Failed,Unknown error: XML output was None.
-https://pinchofyum.com/easy-tofu-recipes,Failed,Unknown error: XML output was None.
+https://pinchofyum.com/easy-tofu-recipeResults,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/9-healthy-holiday-treats,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/triple-berry-cheesecake-muffins,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/easy-summer-dinners,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/8-life-changing-ways-to-use-a-spiralizer,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/traffic-income-report-may,Failed,Unknown error: XML output was None.
-https://pinchofyum.com/easy-shrimp-recipes,Failed,Unknown error: XML output was None.
+https://pinchofyum.com/easy-shrimp-recipeResults,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/7-ways-to-take-viral-food-photos,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/traffic-income-report-march-2016,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/easy-red-lentil-dhal,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/7-layer-beet-salad,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/traffic-income-report-june,Failed,Unknown error: XML output was None.
-https://pinchofyum.com/easy-pumpkin-recipes,Failed,Unknown error: XML output was None.
+https://pinchofyum.com/easy-pumpkin-recipeResults,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/6-ingredient-espresso-brownies,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/traffic-income-report-april,Failed,Unknown error: XML output was None.
-https://pinchofyum.com/easy-pasta-recipes,Failed,Unknown error: XML output was None.
+https://pinchofyum.com/easy-pasta-recipeResults,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/5-reasons-i-love-this-healthy-nonstick-ceramic-cookware,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/traffic-and-income-report-october-2015,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/easy-no-bake-desserts,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/5-minute-vegan-yogurt,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/traffic-and-income-report-january-2016,Failed,Unknown error: XML output was None.
-https://pinchofyum.com/easy-mexican-recipes,Failed,Unknown error: XML output was None.
+https://pinchofyum.com/easy-mexican-recipeResults,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/5-minute-vegan-kale-pesto,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/traffic-and-income-report-february,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/easy-mexican-chicken-quinoa-casserole,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/5-minute-sunshine-sauce,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/traffic-and-income-july,Failed,Unknown error: XML output was None.
-https://pinchofyum.com/easy-italian-recipes,Failed,Unknown error: XML output was None.
+https://pinchofyum.com/easy-italian-recipeResults,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/5-minute-spicy-chickpea-salad,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/trader-joes-sun-dried-tomato-focaccia-turkey-sandwich,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/easy-instant-pot-applesauce,Failed,Unknown error: XML output was None.
@@ -711,7 +711,7 @@ https://pinchofyum.com/tomato-sauce,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/easy-homemade-blueberry-sauce,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/5-minute-honey-mustard-sauce,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/tomato-ricotta-pasta-with-broccoli,Failed,Unknown error: XML output was None.
-https://pinchofyum.com/easy-dessert-recipes,Failed,Unknown error: XML output was None.
+https://pinchofyum.com/easy-dessert-recipeResults,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/5-minute-homemade-peanut-butter,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/tofu-and-brown-rice-lettuce-wraps,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/easy-crockpot-carnitas,Failed,Unknown error: XML output was None.
@@ -729,10 +729,10 @@ https://pinchofyum.com/tiny-bloom,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/easy-cheese-fondue,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/5-ingredient-tomato-soup,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/three-cheese-baked-ziti,Failed,Unknown error: XML output was None.
-https://pinchofyum.com/easy-brunch-recipes,Failed,Unknown error: XML output was None.
+https://pinchofyum.com/easy-brunch-recipeResults,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/5-ingredient-spicy-pork,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/three-cheese-baked-gnocchi-with-spinach,Failed,Unknown error: XML output was None.
-https://pinchofyum.com/easy-baking-recipes,Failed,Unknown error: XML output was None.
+https://pinchofyum.com/easy-baking-recipeResults,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/5-ingredient-peanut-butter-chocolate-chip-cookies,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/thoughts-at-three-months,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/easy-appetizers,Failed,Unknown error: XML output was None.
@@ -781,11 +781,11 @@ https://pinchofyum.com/delicious-sheet-pan-dinners,Failed,Unknown error: XML out
 https://pinchofyum.com/chimichurri-shrimp-with-tomatoes,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/sausage-and-red-pepper-quiche,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/instant-pot-chicken-cacciatore,Failed,Unknown error: XML output was None.
-https://pinchofyum.com/delicious-rice-recipes,Failed,Unknown error: XML output was None.
+https://pinchofyum.com/delicious-rice-recipeResults,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/chili-garlic-pappardelle-with-smashed-broccoli-and-soft-eggs,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/sausage-and-mozzarella-calzone,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/instant-pot-chicken-and-dumplings,Failed,Unknown error: XML output was None.
-https://pinchofyum.com/delicious-quinoa-recipes,Failed,Unknown error: XML output was None.
+https://pinchofyum.com/delicious-quinoa-recipeResults,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/chili-crunch-tofu,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/instant-pot-cauliflower-curry,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/deep-dish-smores-bowls-for-two,Failed,Unknown error: XML output was None.
@@ -819,7 +819,7 @@ https://pinchofyum.com/incredible-gochujang-sauce,Failed,Unknown error: XML outp
 https://pinchofyum.com/december-report,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/chicken-wild-rice-casserole,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/salted-caramel-brownies,Failed,Unknown error: XML output was None.
-https://pinchofyum.com/incredible-corn-recipes,Failed,Unknown error: XML output was None.
+https://pinchofyum.com/incredible-corn-recipeResults,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/december-coffee-date,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/chicken-tortilla-soup,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/salted-caramel-apple-upside-down-cake,Failed,Unknown error: XML output was None.
@@ -833,7 +833,7 @@ https://pinchofyum.com/date-night-rigatoni,Failed,Unknown error: XML output was 
 https://pinchofyum.com/chicken-tetrazzini,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/salmon-tacos,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/income-report-august,Failed,Unknown error: XML output was None.
-https://pinchofyum.com/date-night-recipes,Failed,Unknown error: XML output was None.
+https://pinchofyum.com/date-night-recipeResults,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/chicken-teriyaki-burgers,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/sage-in-september,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/iced-matcha-green-tea-latte,Failed,Unknown error: XML output was None.
@@ -946,7 +946,7 @@ https://pinchofyum.com/cauliflower-walnut-vegetarian-taco-meat,Failed,Unknown er
 https://pinchofyum.com/roasted-garlic-rosemary-pumpkin-hummus,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/hot-dog-bar,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/crispy-chicken-tikka-bowls-with-mint-sauce,Failed,Unknown error: XML output was None.
-https://pinchofyum.com/cauliflower-recipes,Failed,Unknown error: XML output was None.
+https://pinchofyum.com/cauliflower-recipeResults,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/roasted-corn-and-fried-egg-tacos,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/honey-wild-blueberry-smoothie,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/crispy-chicken-cutlets,Failed,Unknown error: XML output was None.
@@ -978,7 +978,7 @@ https://pinchofyum.com/carrot-soup,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/roasted-broccoli-salad,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/honey-chicken-salad-with-grapes-and-feta,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/creamy-thai-sweet-potatoes-and-lentil,Failed,Unknown error: XML output was None.
-https://pinchofyum.com/carrot-recipes,Failed,Unknown error: XML output was None.
+https://pinchofyum.com/carrot-recipeResults,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/roasted-bell-pepper-tostadas,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/honey-butter-spread-on-lemon-cake,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/creamy-thai-sweet-potato-curry,Failed,Unknown error: XML output was None.
@@ -1001,7 +1001,7 @@ https://pinchofyum.com/ricotta-meatballs-with-the-crispy-topping,Failed,Unknown 
 https://pinchofyum.com/lemon-poppyseed-zucchini-muffins,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/coconut-lime-grilled-chicken-and-rice,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/caribbean-jerk-salmon-bowl-with-mango-salsa,Failed,Unknown error: XML output was None.
-https://pinchofyum.com/sweet-berry-recipes,Failed,Unknown error: XML output was None.
+https://pinchofyum.com/sweet-berry-recipeResults,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/reuben-casserole,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/lemon-pancakes-and-blackberry-syrup,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/coconut-lime-chicken,Failed,Unknown error: XML output was None.
@@ -1019,12 +1019,12 @@ https://pinchofyum.com/lazy-girl-chicken-quinoa-enchiladas,Failed,Unknown error:
 https://pinchofyum.com/classic-apple-crisp,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/caprese-grilled-cheese,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/super-easy-coconut-french-toast-bake,Failed,Unknown error: XML output was None.
-https://pinchofyum.com/recipes-with-five-ingredients-or-less,Failed,Unknown error: XML output was None.
+https://pinchofyum.com/recipeResults-with-five-ingredients-or-less,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/lazy-chocolate-cherry-fudge-cake,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/cinnamon-whole-grain-power-pancakes,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/caprese-chicken-with-smashed-potatoes,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/super-creamy-white-chicken-chili-with-seasoned-tots,Failed,Unknown error: XML output was None.
-https://pinchofyum.com/recipes-to-save-you-when-you-just-dont-feel-like-cooking,Failed,Unknown error: XML output was None.
+https://pinchofyum.com/recipeResults-to-save-you-when-you-just-dont-feel-like-cooking,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/korean-bbq-style-cauliflower-lettuce-wraps,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/cinnamon-white-russian,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/candy-fudge-bars,Failed,Unknown error: XML output was None.
@@ -1034,7 +1034,7 @@ https://pinchofyum.com/korean-bbq-steak-bowls-with-spicy-sesame-dressing,Failed,
 https://pinchofyum.com/cinnamon-sugar-zucchini-coffee-cake,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/camote-tops-camote-fritters,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/sun-dried-tomato-dill-linguine,Failed,Unknown error: XML output was None.
-https://pinchofyum.com/readers-choice-awards-best-recipes-2013,Failed,Unknown error: XML output was None.
+https://pinchofyum.com/readers-choice-awards-best-recipeResults-2013,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/korean-bbq-burrito,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/cinnamon-sugar-radish-chips,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/cake-bites,Failed,Unknown error: XML output was None.
@@ -1065,7 +1065,7 @@ https://pinchofyum.com/cinnamon-streusel-french-toast-cups,Failed,Unknown error:
 https://pinchofyum.com/butternut-squash-mac-n-cheese-with-caramelized-onions-apples-and-bacon,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/sugar-free-january-recap,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/rainbow-vegetarian-pad-thai-with-peanuts-and-basil,Failed,Unknown error: XML output was None.
-https://pinchofyum.com/kale-recipes,Failed,Unknown error: XML output was None.
+https://pinchofyum.com/kale-recipeResults,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/cinnamon-rolls,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/butternut-squash-lasagna,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/sugar-free-january-q-and-a,Failed,Unknown error: XML output was None.
@@ -1202,7 +1202,7 @@ https://pinchofyum.com/pumpkin-bars-with-old-fashioned-caramel-frosting,Failed,U
 https://pinchofyum.com/instant-pot-pasta-and-meatballs-with-lemon-herb-ricotta,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/chocolate-banana-naturally-sweet-ice-cream,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/blueberry-orange-brunch-cake,Failed,Unknown error: XML output was None.
-https://pinchofyum.com/spinach-recipes,Failed,Unknown error: XML output was None.
+https://pinchofyum.com/spinach-recipeResults,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/pumpkin-alfredo,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/instant-pot-noodles,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/chipotle-turkey-burger,Failed,Unknown error: XML output was None.
@@ -1245,12 +1245,12 @@ https://pinchofyum.com/healthy-mac-and-cheese,Failed,Unknown error: XML output w
 https://pinchofyum.com/creamy-cauliflower-garlic-rice,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/healthy-jalapeno-sweet-potato-chicken-chili,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/creamy-basil-dip,Failed,Unknown error: XML output was None.
-https://pinchofyum.com/healthy-ish-recipes,Failed,Unknown error: XML output was None.
+https://pinchofyum.com/healthy-ish-recipeResults,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/creamy-baked-orzo-with-meatballs,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/healthy-ish-breakfast-cookies,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/creamy-baked-corn,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/healthy-grilled-sweet-potato-nachos,Failed,Unknown error: XML output was None.
-https://pinchofyum.com/creamy-and-delicious-dairy-free-recipes,Failed,Unknown error: XML output was None.
+https://pinchofyum.com/creamy-and-delicious-dairy-free-recipeResults,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/healthy-gingerbread-muffins,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/cream-cheese-danishes-with-sugared-cranberries-and-butter-glaze,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/healthy-fettucine-alfredo,Failed,Unknown error: XML output was None.
@@ -1262,9 +1262,9 @@ https://pinchofyum.com/cozy-veggie-korma,Failed,Unknown error: XML output was No
 https://pinchofyum.com/healthy-cinnamon-roll-pancakes,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/cozy-homemade-peppermint-mocha,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/healthy-chocolate-chip-peanut-butter-cookie-dough,Failed,Unknown error: XML output was None.
-https://pinchofyum.com/cozy-casserole-recipes,Failed,Unknown error: XML output was None.
+https://pinchofyum.com/cozy-casserole-recipeResults,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/healthy-chipotle-sweet-corn-fettuccine,Failed,Unknown error: XML output was None.
-https://pinchofyum.com/coziest-comfort-food-recipes,Failed,Unknown error: XML output was None.
+https://pinchofyum.com/coziest-comfort-food-recipeResults,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/healthy-chicken-salad,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/couscous-summer-salad,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/healthy-chicken-alfredo-pizza,Failed,Unknown error: XML output was None.
@@ -1282,7 +1282,7 @@ https://pinchofyum.com/corn-avocado-and-quinoa-salad-with-marinated-tomatoes,Fai
 https://pinchofyum.com/healing-bowls,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/cookie-dough-energy-bites,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/harvest-wild-rice-skillet,Failed,Unknown error: XML output was None.
-https://pinchofyum.com/completely-delicious-broccoli-recipes,Failed,Unknown error: XML output was None.
+https://pinchofyum.com/completely-delicious-broccoli-recipeResults,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/harvest-salad-with-creamy-maple-sauce,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/coming-soon-the-holiday-series,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/harissa-meatballs-with-whipped-feta,Failed,Unknown error: XML output was None.
@@ -1308,7 +1308,7 @@ https://pinchofyum.com/portobello-french-dip-with-horseradish-aioli,Failed,Unkno
 https://pinchofyum.com/grilled-chimichurri-portobellos-with-goat-cheese-mashed-potatoes,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/blackberry-cream-honey-oats,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/the-quarantine-report-episode-2,Failed,Unknown error: XML output was None.
-https://pinchofyum.com/pork-recipes,Failed,Unknown error: XML output was None.
+https://pinchofyum.com/pork-recipeResults,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/grilled-chicken-with-pepperoncini-garlic-butter,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/black-pepper-stir-fried-udon,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/the-pinch-of-yum-everything-list,Failed,Unknown error: XML output was None.
@@ -1334,77 +1334,77 @@ https://pinchofyum.com/big-cluster-peanut-butter-granola,Failed,Unknown error: X
 https://pinchofyum.com/the-hardest-times,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/pitcher-style-margaritas-for-a-crowd,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/green-goddess-quinoa-summer-salad,Failed,Unknown error: XML output was None.
-https://pinchofyum.com/best-taco-recipes,Failed,Unknown error: XML output was None.
+https://pinchofyum.com/best-taco-recipeResults,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/the-food-blog-money-making-experiment-november,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/pistachio-loaf,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/green-goddess-detox-salad,Failed,Unknown error: XML output was None.
-https://pinchofyum.com/best-sugar-free-recipes,Failed,Unknown error: XML output was None.
+https://pinchofyum.com/best-sugar-free-recipeResults,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/the-fails-of-2015,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/pineapple-pork-with-coconut-rice,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/green-curry-scallops,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/best-sandwiches-burgers-and-wraps,Failed,Unknown error: XML output was None.
-https://pinchofyum.com/the-failed-recipes-2013,Failed,Unknown error: XML output was None.
+https://pinchofyum.com/the-failed-recipeResults-2013,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/pickled-strawberries,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/green-curry,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/pesto-shrimp-and-parmesan-risotto,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/greek-salad-with-paprika-croutons,Failed,Unknown error: XML output was None.
-https://pinchofyum.com/best-healthy-winter-recipes,Failed,Unknown error: XML output was None.
+https://pinchofyum.com/best-healthy-winter-recipeResults,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/the-best-soft-granola-bars,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/pesto-asparagus-noodles,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/greek-baked-orzo,Failed,Unknown error: XML output was None.
-https://pinchofyum.com/best-healthy-vegetarian-recipes,Failed,Unknown error: XML output was None.
+https://pinchofyum.com/best-healthy-vegetarian-recipeResults,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/the-best-soft-chocolate-chip-cookies,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/perfect-chocolate-chip-cookies,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/grapefruit-mojitos-two,Failed,Unknown error: XML output was None.
-https://pinchofyum.com/best-healthy-vegan-recipes,Failed,Unknown error: XML output was None.
+https://pinchofyum.com/best-healthy-vegan-recipeResults,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/the-best-green-smoothie,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/perfect-baked-salmon-lentils,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/grandmas-creamy-lemon-pie,Failed,Unknown error: XML output was None.
-https://pinchofyum.com/best-healthy-sweet-potato-recipes,Failed,Unknown error: XML output was None.
+https://pinchofyum.com/best-healthy-sweet-potato-recipeResults,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/the-best-garlic-herb-cheesy-potatoes,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/peppery-torn-homemade-croutons,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/grandmas-butterhorns,Failed,Unknown error: XML output was None.
-https://pinchofyum.com/best-healthy-summer-salad-recipes,Failed,Unknown error: XML output was None.
+https://pinchofyum.com/best-healthy-summer-salad-recipeResults,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/the-best-foods-at-disney-world,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/pecan-pie-energy-bites,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/grandmas-apple-crisp,Failed,Unknown error: XML output was None.
-https://pinchofyum.com/best-healthy-spring-recipes,Failed,Unknown error: XML output was None.
+https://pinchofyum.com/best-healthy-spring-recipeResults,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/the-best-easy-peanut-butter-pie,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/peanut-noodle-salad,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/gorgonzola-and-bacon-panini,Failed,Unknown error: XML output was None.
-https://pinchofyum.com/best-healthy-soup-recipes,Failed,Unknown error: XML output was None.
+https://pinchofyum.com/best-healthy-soup-recipeResults,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/the-best-detox-crockpot-lentil-soup,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/peanut-chicken-lettuce-wraps-ginger-garlic-sauce,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/gorgeous-peach-salad,Failed,Unknown error: XML output was None.
-https://pinchofyum.com/best-healthy-snack-recipes,Failed,Unknown error: XML output was None.
+https://pinchofyum.com/best-healthy-snack-recipeResults,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/the-best-chicken-tinga-tacos,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/peanut-butter-smores-bars,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/gooey-chocolate-caramel-cake,Failed,Unknown error: XML output was None.
-https://pinchofyum.com/best-healthy-meal-prep-recipes,Failed,Unknown error: XML output was None.
+https://pinchofyum.com/best-healthy-meal-prep-recipeResults,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/the-best-avocado-egg-salad,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/peanut-butter-pretzel-cookies,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/gooey-caramel-monkey-bread,Failed,Unknown error: XML output was None.
-https://pinchofyum.com/best-healthy-gluten-free-recipes,Failed,Unknown error: XML output was None.
+https://pinchofyum.com/best-healthy-gluten-free-recipeResults,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/the-best-3-ingredient-grilled-chicken,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/peanut-butter-pie-shooters,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/golden-soup,Failed,Unknown error: XML output was None.
-https://pinchofyum.com/best-healthy-fall-recipes,Failed,Unknown error: XML output was None.
+https://pinchofyum.com/best-healthy-fall-recipeResults,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/the-4-ingredient-simple-green-smoothie,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/peanut-butter-oreo-blondies,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/golden-grahams-smores-bars,Failed,Unknown error: XML output was None.
-https://pinchofyum.com/best-healthy-chickpea-recipes,Failed,Unknown error: XML output was None.
+https://pinchofyum.com/best-healthy-chickpea-recipeResults,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/thanksgiving-salad-wild-rice-lemon-dressing,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/peanut-butter-oatmeal-chocolate-chip-cookies,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/golden-graham-bars,Failed,Unknown error: XML output was None.
-https://pinchofyum.com/best-healthy-chicken-recipes,Failed,Unknown error: XML output was None.
-https://pinchofyum.com/thanksgiving-recipes,Failed,Unknown error: XML output was None.
+https://pinchofyum.com/best-healthy-chicken-recipeResults,Failed,Unknown error: XML output was None.
+https://pinchofyum.com/thanksgiving-recipeResults,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/peanut-butter-honey-muffins,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/golden-crispies,Failed,Unknown error: XML output was None.
-https://pinchofyum.com/best-healthy-breakfast-recipes,Failed,Unknown error: XML output was None.
+https://pinchofyum.com/best-healthy-breakfast-recipeResults,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/thai-yellow-curry-with-beef-and-potatoes,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/peanut-butter-cookie-dough-balls,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/gochujang-chicken-burgers-with-kimchi-bacon-jam,Failed,Unknown error: XML output was None.
-https://pinchofyum.com/best-healthy-bowl-recipes,Failed,Unknown error: XML output was None.
+https://pinchofyum.com/best-healthy-bowl-recipeResults,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/thai-yellow-chicken-curry-with-potatoes,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/peanut-butter-chocolate-chip-cookie-cheesecake-bars,Failed,Unknown error: XML output was None.
 https://pinchofyum.com/goat-cheese-scrambled-eggs-pesto-veggies,Failed,Unknown error: XML output was None.

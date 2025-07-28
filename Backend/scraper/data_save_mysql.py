@@ -11,7 +11,7 @@ def insert_recipe_from_xml(xml_file_path):
 
     with app.app_context():
         try:
-            tree = ET.parse('recipe.xml')
+            tree = ET.parse(xml_file_path)
             root = tree.getroot()
             recipe = root
 
@@ -20,7 +20,7 @@ def insert_recipe_from_xml(xml_file_path):
             directions_elem = recipe.find('directions')
             directions = "\n".join([d.text.strip() for d in directions_elem.findall('direction') if d.text]) if directions_elem else None
             cook_time = recipe.find('time').text
-            picture_url = recipe.find('url').text
+            picture_url = recipe.find('picture_url').text
             last_scraped_date = recipe.find('scraped_time').text
 
             # Create Recipe object

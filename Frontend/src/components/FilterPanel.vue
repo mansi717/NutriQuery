@@ -89,15 +89,14 @@
       </div>
     </div>
 
-    <button class="surprise-me-button" @click="goToRecommendations">Surprise Me</button>
+    <button class="surprise-me-button" @click="surpriseMe">Surprise Me</button>
   </div>
 </template>
 
 <script setup>
-import { reactive, ref, computed } from 'vue';
-import { useRouter } from 'vue-router';
-
-const router = useRouter();
+import { reactive, ref, computed, onMounted } from 'vue';
+import { recipeResults } from '@/store/recipeResults';
+import axios from 'axios';
 
 const filters = reactive({
   calories: 600,
@@ -108,6 +107,9 @@ const filters = reactive({
   diet: ''       
 });
 
+onMounted(() => {
+  surpriseMe();
+});
 
 // These generate the CSS variable string for each slider
 const caloriesSliderStyle = computed(() => {
@@ -166,7 +168,8 @@ function addIngredient(ingredient) {
 function removeIngredient(ingredient) {
   selectedIngredients.value = selectedIngredients.value.filter(item => item !== ingredient);
 }
-function goToRecommendations() {
+
+async function surpriseMe() {
   const query = {
     calories: filters.calories,
     protein: filters.protein,
@@ -174,10 +177,22 @@ function goToRecommendations() {
     carbs: filters.carbs,
     time: filters.time,
     diet: filters.diet,
-    ingredients: selectedIngredients.value.join(',') 
+    ingredients: selectedIngredients.value.join(',')
   };
 
-  router.push({ name: 'recommendations', query });
+  try {
+    const response = await axios.get('http://localhost:5050/recommendations', {
+      params: query
+    });
+
+    console.log("✅ Fetched from backend:", response.data);
+
+    // ✅ Store results in reactive global state
+    recipeResults.value = response.data.map(r => ({ ...r, liked: false }));
+
+  } catch (error) {
+    console.error('❌ Failed to fetch recommendations:', error);
+  }
 }
 
 

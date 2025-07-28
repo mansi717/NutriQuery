@@ -31,13 +31,29 @@ const email = ref('')
 const password = ref('')
 const router = useRouter()
 
-function login() {
-  if (email.value === 'mansithakur07@gmail.com' && password.value === 'test123') {
-    localStorage.setItem('auth', 'true')
-    localStorage.setItem('username', 'Mansi')  // Since only demo user "test"
-    router.push('/home')
-  } else {
-    alert('Invalid credentials!')
+async function login() {
+  try {
+    const response = await fetch('http://localhost:5050/login', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        email: email.value,
+        password: password.value,
+      }),
+    });
+
+    const data = await response.json();
+    if (response.ok) {
+      localStorage.setItem('auth', 'true');
+      localStorage.setItem('username', data.username);
+      localStorage.setItem('user_id', data.user_id);
+      router.push('/home');
+    } else {
+      alert(data.message);
+    }
+  } catch (err) {
+    alert('Login failed.');
+    console.error(err);
   }
 }
 

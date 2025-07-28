@@ -25,7 +25,7 @@
     <ol>
       <li>Select your dietary preferences (e.g., Vegan, High Protein)</li>
       <li>Adjust calorie or ingredient filters</li>
-      <li>Browse matching recipes instantly</li>
+      <li>Browse matching recipeResults instantly</li>
       <li>Save your favorites for later</li>
     </ol>
 

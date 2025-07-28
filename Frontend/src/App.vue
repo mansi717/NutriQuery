@@ -8,10 +8,15 @@
 
 <script setup>
 import { useRoute } from 'vue-router'
-import { computed } from 'vue'
+import { computed, onMounted } from 'vue'
 import AppNavbar from './components/AppNavbar.vue'
+import { favoritesStore } from '@/store/favorite';
 
 const route = useRoute()
+
+onMounted(async () => {
+  await favoritesStore.loadFavorites();
+});
 
 // Hides navbar on login and signup
 const showNavbar = computed(() => {

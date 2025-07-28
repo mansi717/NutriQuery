@@ -39,18 +39,35 @@ const password = ref('')
 const confirmPassword = ref('')
 const router = useRouter()
 
-function signup() {
+async function signup() {
   if (password.value !== confirmPassword.value) {
     alert('Passwords do not match!')
     return
   }
 
-  if (name.value === 'test' && email.value === 'test@example.com' && password.value === 'test123') {
-    localStorage.setItem('auth', 'true')
-    localStorage.setItem('username', name.value)  // Saves username
-    router.push('/home')
-  } else {
-    alert('Use: test, test@example.com, test123')
+  try {
+    const response = await fetch('http://localhost:5050/signup', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        name: name.value,
+        email: email.value,
+        password: password.value,
+      }),
+    });
+
+    const data = await response.json();
+    if (response.ok) {
+      localStorage.setItem('auth', 'true');
+      localStorage.setItem('username', data.username);
+      localStorage.setItem('user_id', data.user_id);
+      router.push('/home');
+    } else {
+      alert(data.message);
+    }
+  } catch (err) {
+    alert('Something went wrong during signup.');
+    console.error(err);
   }
 }
 </script>
