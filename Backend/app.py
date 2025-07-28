@@ -14,9 +14,9 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:mysqlpassword@loca
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db.init_app(app)
 
-@app.route('/recommendations')  # ✅ this must be here
+@app.route('/recommendations')
 def get_recommendations():
-    print("📥 Received query params:")
+    print("📥 Received query params:", request.args)
 
     # --- Get filters ---
     max_calories = request.args.get('calories', type=float)
@@ -25,7 +25,10 @@ def get_recommendations():
     max_carbs = request.args.get('carbs', type=float)
     time_limit = request.args.get('time', type=int)
     diet = request.args.get('diet')
-    ingredient_list = request.args.getlist('ingredients[]')
+    
+    # FIX 1: Handle comma-separated string for ingredients
+    ingredients_str = request.args.get('ingredients')
+    ingredient_list = [ing.strip() for ing in ingredients_str.split(',')] if ingredients_str else []
 
     query = db.session.query(Recipes)
 
@@ -34,69 +37,59 @@ def get_recommendations():
         query = query.outerjoin(NutriFacts)
         filters = []
         if max_calories:
-            filters.append(or_(NutriFacts.calories_kcal <= max_calories, NutriFacts.calories_kcal == None))
+            filters.append(or_(NutriFacts.calories_kcal <= max_calories, NutriFacts.calories_kcal.is_(None)))
         if max_fat:
-            filters.append(or_(NutriFacts.fat_g <= max_fat, NutriFacts.fat_g == None))
+            filters.append(or_(NutriFacts.fat_g <= max_fat, NutriFacts.fat_g.is_(None)))
         if max_protein:
-            filters.append(or_(NutriFacts.protein_g <= max_protein, NutriFacts.protein_g == None))
+            filters.append(or_(NutriFacts.protein_g <= max_protein, NutriFacts.protein_g.is_(None)))
         if max_carbs:
-            filters.append(or_(NutriFacts.carbs_g <= max_carbs, NutriFacts.carbs_g == None))
-        query = query.filter(and_(*filters))
-
-    print(f"Selected time_limit filter: {time_limit} (type: {type(time_limit)})")
+            filters.append(or_(NutriFacts.carbs_g <= max_carbs, NutriFacts.carbs_g.is_(None)))
+        if filters:
+            query = query.filter(and_(*filters))
 
     # --- Cook time filter ---
-    if time_limit is not None and time_limit < 45:
+    if time_limit is not None and time_limit > 0 and time_limit < 45:
+        # Assuming Recipes.total_minutes is a pre-calculated integer column
         query = query.filter(Recipes.total_minutes <= time_limit)
         print(f"✅ Time filter applied: total_minutes <= {time_limit}")
-    else:
-        print("⏰ No time limit applied — showing all recipes.")
-
-    recipes = query.distinct().limit(10).all()
-    print(str(query.statement.compile(compile_kwargs={"literal_binds": True})))
 
     # --- Diet filter ---
-    # --- Diet Filter ---
     if diet:
-        diet_ri = aliased(RecipeIngredients)  # alias 1
-        diet_ing = aliased(Ingredients)  # alias 2
-        query = query.join(diet_ri, Recipes.recipe_id == diet_ri.recipe_id)
-        query = query.join(diet_ing, diet_ri.ingredient_id == diet_ing.ingredient_id)
-
+        # Note: This logic assumes a recipe is "vegan" if none of its ingredients are non-vegan.
+        # This can be complex. A subquery is often more robust here.
+        subquery = db.session.query(RecipeIngredients.recipe_id)
+        subquery = subquery.join(Ingredients, RecipeIngredients.ingredient_id == Ingredients.ingredient_id)
+        
         if diet in ['vegan', 'vegetarian']:
             exclude = ['meat', 'chicken', 'beef', 'fish', 'pork', 'egg']
-            for kw in exclude:
-                query = query.filter(~diet_ing.name.ilike(f'%{kw}%'))
+            subquery = subquery.filter(or_(*[Ingredients.name.ilike(f'%{kw}%') for kw in exclude]))
+            query = query.filter(Recipes.recipe_id.notin_(subquery))
         elif diet == 'meat':
-            query = query.filter(
-                or_(
-                    diet_ing.name.ilike('%chicken%'),
-                    diet_ing.name.ilike('%pork%'),
-                    diet_ing.name.ilike('%beef%'),
-                    diet_ing.name.ilike('%meat%')
-                )
-            )
+            include = ['chicken', 'pork', 'beef', 'meat']
+            subquery = subquery.filter(or_(*[Ingredients.name.ilike(f'%{kw}%') for kw in include]))
+            query = query.filter(Recipes.recipe_id.in_(subquery))
         elif diet == 'seafood':
-            query = query.filter(
-                or_(
-                    diet_ing.name.ilike('%fish%'),
-                    diet_ing.name.ilike('%shrimp%'),
-                    diet_ing.name.ilike('%prawn%')
-                )
-            )
+            include = ['fish', 'shrimp', 'prawn', 'salmon', 'tuna']
+            subquery = subquery.filter(or_(*[Ingredients.name.ilike(f'%{kw}%') for kw in include]))
+            query = query.filter(Recipes.recipe_id.in_(subquery))
 
     # --- Ingredient search ---
     if ingredient_list:
-        ing_ri = aliased(RecipeIngredients)  # alias 3
-        ing_ing = aliased(Ingredients)  # alias 4
-        query = query.join(ing_ri, Recipes.recipe_id == ing_ri.recipe_id)
-        query = query.join(ing_ing, ing_ri.ingredient_id == ing_ing.ingredient_id)
+        # For each ingredient, the recipe must contain it.
+        for ingredient_name in ingredient_list:
+            if not ingredient_name: continue
+            # Use a subquery to find recipes containing this specific ingredient
+            sq = db.session.query(RecipeIngredients.recipe_id).join(Ingredients).filter(Ingredients.name.ilike(f'%{ingredient_name}%')).subquery()
+            query = query.filter(Recipes.recipe_id.in_(sq))
 
-        query = query.filter(
-            or_(*[ing_ing.name.ilike(f'%{ing}%') for ing in ingredient_list])
-        )
+    # FIX 2: Execute the query only ONCE after all filters are applied
+    query = query.distinct()
+    
+    # Print the final, complete query for debugging
+    print(" النهائية Final SQL Query:")
+    print(str(query.statement.compile(compile_kwargs={"literal_binds": True})))
 
-    recipes = query.distinct().limit(10).all()
+    recipes = query.limit(10).all()
 
     # --- Format result ---
     response_data = [{
@@ -107,8 +100,7 @@ def get_recommendations():
         'directions': r.directions
     } for r in recipes]
 
-    print("📤 Sending recipes:")
-
+    print(f"📤 Sending {len(response_data)} recipes.")
     return jsonify(response_data)
 
 def build_time_in_minutes():

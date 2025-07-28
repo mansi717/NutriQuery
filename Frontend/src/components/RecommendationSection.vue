@@ -1,185 +1,145 @@
 <template>
-  <div>
-    <h2 class="welcome-text">Recommended Recipes</h2>
-    <div class="main-content">
-      <FilterPanel />
-      <div class="grid">
-        <div class="card" v-for="recipe in recipes" :key="recipe.id">
-          <div class="image-wrapper">
-            <img :src="recipe.picture_url" :alt="recipe.name" />
-          </div>
-          <div class="card-content">
-            <p class="recipe-name">{{ recipe.name }}</p>
-            <div class="recipe-meta">
-              <p class="cook-time"> ⏰ {{ recipe.cook_time }}</p>
-              <button class="like-button" @click="toggleLike(recipe)">
-                <span v-if="recipe.liked" class="liked-heart">❤️</span>
-                <span v-else class="unliked-heart">♡</span>
-              </button>
-            </div>
-          </div>
+  <div class="recommendation-wrapper">
+    <h2>Recommended Recipes</h2>
+
+    <div class="grid">
+      <p v-if="recipes.length === 0" class="empty-msg">No recipes to display.</p>
+
+      <div class="card" v-for="recipe in recipes" :key="recipe.id">
+        <!-- <div class="image-wrapper">
+          <img :src="recipe.picture_url" :alt="recipe.name" />
+        </div> -->
+        <div class="card-content">
+          <p class="recipe-name">{{ recipe.name }}</p>
+          <p class="cook-time">Cook Time: {{ recipe.cook_time || 'N/A' }}</p>
+          <button class="like-btn" @click="toggleLike(recipe)">
+            {{ recipe.liked ? '❤️ Liked' : '🤍 Like' }}
+          </button>
         </div>
       </div>
     </div>
   </div>
 </template>
 
-
 <script setup>
-import FilterPanel from './FilterPanel.vue';
-import { useRoute } from 'vue-router';
-import { computed, ref, onMounted } from 'vue';
-import axios from 'axios';
-import {images} from "@/store/recipes";
+import { onMounted, ref } from 'vue'
+import axios from 'axios'
 
-const route = useRoute();
-const recipes = ref([]);
+// Dummy list of fallback images
+// const images = [
+//   "https://via.placeholder.com/300x200?text=Recipe+1",
+//   "https://via.placeholder.com/300x200?text=Recipe+2",
+//   "https://via.placeholder.com/300x200?text=Recipe+3",
+//   "https://via.placeholder.com/300x200?text=Recipe+4"
+// ]
 
-const filters = computed(() => ({
-  calories: Number(route.query.calories),
-  protein: Number(route.query.protein),
-  fat: Number(route.query.fat),
-  carbs: Number(route.query.carbs),
-  time: route.query.time,
-  diet: route.query.diet,
-  ingredients: route.query.ingredients?.split(',') || []
-}));
+const filters = ref({
+  max_calories: 500,
+  max_cook_time: 30,
+  diet: "vegetarian",
+  include_ingredients: ["cabbage", "yogurt"]
+})
 
-function assignRandomImages(recipes) {
-  const availableImages = [...images];
+const recipes = ref([])
 
-  recipes.forEach(recipe => {
-    if (availableImages.length === 0) {
-      // If more recipes than images, restart image pool
-      availableImages.push(...images);
-    }
-
-    // Pick a random index
-    const randomIndex = Math.floor(Math.random() * availableImages.length);
-    recipe.picture_url = availableImages[randomIndex];
-
-    // Remove the selected image so it's not reused immediately
-    availableImages.splice(randomIndex, 1);
-  });
-
-  return recipes;
-}
 onMounted(async () => {
-  console.log("🔍 Sending filters:", filters.value);
+  console.log("📤 Sending filters:", filters.value)
   try {
     const response = await axios.get('http://localhost:5050/recommendations', {
       params: filters.value
-    });
-    recipes.value = response.data.map(r => ({ ...r, liked: false }));
-    console.log(recipes.value)
-    recipes.value = assignRandomImages(recipes.value);
-    recipes.value.forEach(recipe => {
-      console.log(recipe.picture_url);
-    });
+    })
+    console.log("📥 Received recipes:", response.data)
+
+    const recipeData = response.data.map(r => ({ ...r, liked: false }))
+    // assignRandomImages(recipeData)
+    recipes.value = recipeData
   } catch (error) {
-    console.error('❌ Failed to fetch recipes:', error);
+    console.error("❌ API fetch failed:", error)
   }
-});
+})
+
+// function assignRandomImages(recipes) {
+//   const availableImages = [...images]
+//   recipes.forEach(recipe => {
+//     if (availableImages.length === 0) availableImages.push(...images)
+//     const randomIndex = Math.floor(Math.random() * availableImages.length)
+//     recipe.picture_url = availableImages[randomIndex]
+//     availableImages.splice(randomIndex, 1)
+//   })
+// }
 
 function toggleLike(recipe) {
-  recipe.liked = !recipe.liked;
-  console.log(recipe.name, 'liked:', recipe.liked);
+  recipe.liked = !recipe.liked
 }
-
 </script>
 
 <style scoped>
-
-.welcome-text {
-  font-family: 'Jua', sans-serif;
-  font-size: 20px;
-  font-weight: 600;
-  color: #A0C49D;
-  margin: 16px 0 16px 32px;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+.recommendation-wrapper {
+  padding: 1rem;
 }
 
-
-.main-content {
-  display: flex;
-  gap: 16px;
-  padding: 0 32px 32px 32px;
+h2 {
+  text-align: center;
+  margin-bottom: 1rem;
 }
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 20px;
-  width: 100%;
-  box-sizing: border-box;
-  flex-grow: 1;  /* Reserve height for 3 rows, adjust 250px to card height */
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.5rem;
 }
 
 .card {
- background: white;
-  padding: 8px;
+  background: #fff;
   border-radius: 12px;
-  box-shadow: 0 0 10px #eee;
-  overflow: hidden;  /* fixed height */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.image-wrapper {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
 }
 
 .image-wrapper img {
   width: 100%;
-  height: 230px;
+  height: 100%;
   object-fit: cover;
-}
-
-.card img {
-  width: 100%;
-  object-fit: cover;
-  border-radius: 10px;
 }
 
 .card-content {
-  display: flex;
-  flex-direction: column;  /* Stack vertically */
-  align-items: flex-start;
-  padding: 0.5rem;
+  padding: 1rem;
+  text-align: center;
 }
 
 .recipe-name {
-  font-size: 16px;
+  font-size: 1.1rem;
   font-weight: bold;
-  color: rgba(0, 0, 0, 0.7);
-  margin: 0.5rem 0 0.25rem 0;
-  text-align: left;
-  font-family: 'Jua', sans-serif;
-}
-
-.recipe-meta {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
+  margin-bottom: 0.5rem;
 }
 
 .cook-time {
-  font-size: 0.9rem;
-  color: #666;
+  color: #555;
+  margin-bottom: 0.5rem;
 }
 
-.like-button {
-  background: none;
+.like-btn {
+  background-color: transparent;
   border: none;
+  font-size: 1.2rem;
   cursor: pointer;
-  font-size: 20px;
-  padding: 0;
-  line-height: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
-.liked-heart {
+.empty-msg {
   color: red;
-}
-
-.unliked-heart {
-  color: #aaa;
+  font-size: 1.1rem;
+  grid-column: 1 / -1;
+  text-align: center;
 }
 </style>
