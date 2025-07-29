@@ -1,12 +1,23 @@
 <template>
   <div class="favorite-page">
-    <div v-if="favoritesStore.favorites.length === 0" class="no-favorites">
+    <RecipeDetail
+      v-if="selectedRecipe"
+      :recipe="selectedRecipe"
+      @close-detail="selectedRecipe = null"
+    />
+
+    <div v-else-if="favoritesStore.favorites.length === 0" class="no-favorites">
       <p class="message-title">😢 No Favorites Yet!</p>
       <p class="message-subtitle">Go like some delicious dishes and they’ll show up here 🍽️</p>
     </div>
 
     <div v-else class="grid">
-      <div class="card" v-for="recipe in favoritesStore.favorites" :key="recipe.id">
+      <div
+        class="card"
+        v-for="recipe in favoritesStore.favorites"
+        :key="recipe.id"
+        @click="viewDetail(recipe)"
+      >
         <div class="image-wrapper">
           <img :src="recipe.picture_url" :alt="recipe.name" />
         </div>
@@ -14,7 +25,7 @@
           <p class="recipe-name">{{ recipe.name }}</p>
           <div class="recipe-meta">
             <p class="cook-time"> ⏰ {{ recipe.cook_time }}</p>
-            <button class="like-button" @click="toggleFavorite(recipe)">
+            <button class="like-button" @click.stop="toggleFavorite(recipe)">
               <span v-if="recipe.liked" class="liked-heart">❤️</span>
               <span v-else class="unliked-heart">♡</span>
             </button>
@@ -27,17 +38,23 @@
 
 <script setup>
 import { ref, onMounted } from 'vue';
-import { favoritesStore } from '@/store/favorite'; // Adjust path if necessary
+import { favoritesStore } from '@/store/favorite';
+import RecipeDetail from './RecipeDetail.vue';
 
+const selectedRecipe = ref(null);
 const likedRecipes = ref([]);
-// Removed userId local variable as it's not directly used here after store.loadFavorites()
+
+function viewDetail(recipe) {
+  selectedRecipe.value = recipe;
+}
 
 function toggleFavorite(recipe) {
   favoritesStore.toggleFavorite(recipe);
 }
+
 onMounted(async () => {
-  await favoritesStore.loadFavorites(); // Load favorites into the store
-  likedRecipes.value = favoritesStore.favorites; // Sync local ref with store's favorites
+  await favoritesStore.loadFavorites();
+  likedRecipes.value = favoritesStore.favorites;
 });
 </script>
 
